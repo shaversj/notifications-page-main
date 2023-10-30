@@ -6,5 +6,50 @@
     "message_location": "My first tournament today!",
     "timestamp": "1m ago",
     "avatar": "avatar-mark-webber.webp"
+  },
+  {
+    "id": 2,
+    "name": "Angela Gray",
+    "notification": "followed you",
+    "timestamp": "5m ago",
+    "avatar": "avatar-angela-gray.webp"
+  },
+  {
+    "id": 3,
+    "name": "Jacob Thompson",
+    "notification": "has joined your group",
+    "message_location": "Chess Club",
+    "timestamp": "1 day ago",
+    "avatar": "avatar-jacob-thompson.webp"
+  },
+  {
+    "id": 4,
+    "name": "Rizky Hasanuddin",
+    "notification": "sent you a private message",
+    "timestamp": "5 days ago",
+    "avatar": "avatar-rizky-hasanuddin.webp"
+  },
+  {
+    "id": 5,
+    "name": "Kimberly Smith",
+    "notification": "commented on your picture",
+    "timestamp": "1 week ago",
+    "avatar": "avatar-kimberly-smith.webp"
+  },
+  {
+    "id": 6,
+    "name": "Nathan Peterson",
+    "notification": "reacted to your recent post",
+    "message_location": "5 end-game strategies to increase your win rate",
+    "timestamp": "2 weeks ago",
+    "avatar": "avatar-nathan-peterson.webp"
+  },
+  {
+    "id": 7,
+    "name": "Anna Kim",
+    "notification": "left the group",
+    "message_location": "Chess Club",
+    "timestamp": "2 weeks ago",
+    "avatar": "avatar-anna-kim.webp"
   }
 ]

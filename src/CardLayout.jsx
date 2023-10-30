@@ -2,7 +2,7 @@ import data from './data.json'
 import Card from "./Card.jsx";
 const CardLayout = () => {
     return (
-        <div className={"pt-5"}>
+        <div className={"pt-5 space-y-3"}>
             {data && data.map((item) =>
                 <Card
                     key={item.id}
