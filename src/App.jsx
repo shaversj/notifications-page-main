@@ -1,4 +1,5 @@
 import mark from '/src/assets/images/avatar-mark-webber.webp'
+import CardLayout from "./CardLayout.jsx";
 
 function App() {
 
@@ -16,24 +17,8 @@ function App() {
                     </button>
                 </div>
 
-                {/*Cards Container*/}
-                <div className={"pt-5"}>
 
-                    {/*Card*/}
-                    <div className={"flex bg-unread-gray p-4 gap-x-[13px] rounded-xl "}>
-                        <img className={"w-[40px] h-[40px]"} src={mark} alt={""} />
-                        <div className={"text-[14px] text-dark-grayish-blue leading-[1.2rem]"}>
-                            <div className={"space-x-2 text-dark-grayish-blue"}>
-                                <span className={"font-bold text-black"}>Mark Webber</span>
-                                <span className={"text-dark-grayish-blue "}>reacted to your recent post</span>
-                                <span className={"text-dark-grayish-blue font-semibold"}>My first tournament today!</span>
-                                <div className={"w-[8px] h-[8px] bg-primary-red rounded-full inline-flex align-middle mb-1"}></div>
-                            </div>
-                            <span className={"text-grayish-blue"}>1m ago</span>
-                        </div>
-                    </div>
-
-                </div>
+                <CardLayout />
 
 
             </main>
