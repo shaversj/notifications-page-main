@@ -5,7 +5,8 @@
     "notification": "reacted to your recent post",
     "message_location": "My first tournament today!",
     "timestamp": "1m ago",
-    "avatar": "avatar-mark-webber.webp"
+    "avatar": "avatar-mark-webber.webp",
+    "isRead": false
   },
   {
     "id": 2,
