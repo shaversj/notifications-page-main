@@ -2,55 +2,61 @@
   {
     "id": 1,
     "name": "Mark Webber",
-    "notification": "reacted to your recent post",
+    "message": "reacted to your recent post",
     "message_location": "My first tournament today!",
     "timestamp": "1m ago",
     "avatar": "avatar-mark-webber.webp",
-    "isRead": false
+    "hasBeenRead": false
   },
   {
     "id": 2,
     "name": "Angela Gray",
-    "notification": "followed you",
+    "message": "followed you",
     "timestamp": "5m ago",
-    "avatar": "avatar-angela-gray.webp"
+    "avatar": "avatar-angela-gray.webp",
+    "hasBeenRead": false
   },
   {
     "id": 3,
     "name": "Jacob Thompson",
-    "notification": "has joined your group",
+    "message": "has joined your group",
     "message_location": "Chess Club",
     "timestamp": "1 day ago",
-    "avatar": "avatar-jacob-thompson.webp"
+    "avatar": "avatar-jacob-thompson.webp",
+    "hasBeenRead": false
   },
   {
     "id": 4,
     "name": "Rizky Hasanuddin",
-    "notification": "sent you a private message",
+    "message": "sent you a private message",
     "timestamp": "5 days ago",
-    "avatar": "avatar-rizky-hasanuddin.webp"
+    "avatar": "avatar-rizky-hasanuddin.webp",
+    "hasBeenRead": true
   },
   {
     "id": 5,
     "name": "Kimberly Smith",
-    "notification": "commented on your picture",
+    "message": "commented on your picture",
     "timestamp": "1 week ago",
-    "avatar": "avatar-kimberly-smith.webp"
+    "avatar": "avatar-kimberly-smith.webp",
+    "hasBeenRead": true
   },
   {
     "id": 6,
     "name": "Nathan Peterson",
-    "notification": "reacted to your recent post",
+    "message": "reacted to your recent post",
     "message_location": "5 end-game strategies to increase your win rate",
     "timestamp": "2 weeks ago",
-    "avatar": "avatar-nathan-peterson.webp"
+    "avatar": "avatar-nathan-peterson.webp",
+    "hasBeenRead": true
   },
   {
     "id": 7,
     "name": "Anna Kim",
-    "notification": "left the group",
+    "message": "left the group",
     "message_location": "Chess Club",
     "timestamp": "2 weeks ago",
-    "avatar": "avatar-anna-kim.webp"
+    "avatar": "avatar-anna-kim.webp",
+    "hasBeenRead": true
   }
 ]
