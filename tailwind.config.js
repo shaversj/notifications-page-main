@@ -20,7 +20,8 @@ export default {
         "dark-grayish-blue": "hsl(219, 12%, 42%)",
         "very-dark-blue": "hsl(224, 21%, 14%)",
         "neutral-white": "hsl(0, 0%, 100%)",
-        "unread-gray": "hsl(206,63.6%,97.8%)"
+        "unread-gray": "hsl(206,63.6%,97.8%)",
+        "lg-background-color": "hsl(228,71.4%,98.6%)"
       },
       fontFamily: {
         "Plus-Jakarta-Sans": ["Plus Jakarta Sans", "sans-serif"]

@@ -13,12 +13,12 @@ const Card = ({notification, decreaseUnReadCount, increaseUnReadCount}) => {
         <>
             {notification.hasBeenRead ? (
                 <button className={"flex bg-neutral-white p-4 gap-x-[13px] rounded-xl w-full text-left"} onClick={toggleUnRead}>
-                    <img className={"w-[40px] h-[40px]"} src={notification.avatar} alt={""} />
-                    <div className={"text-[14px] text-dark-grayish-blue leading-[1.2rem]"}>
+                    <img className={"w-[40px] h-[40px] lg:w-[47px] lg:h-[47px]"} src={notification.avatar} alt={""} />
+                    <div className={"text-[14px] lg:text-[16px] text-dark-grayish-blue leading-[1.2rem] lg:leading-[1.5rem]"}>
                         <div className={"space-x-2 text-dark-grayish-blue"}>
                             <span className={"font-bold text-black empty:hidden hover:text-primary-blue"}>{notification.name}</span>
                             <span className={"text-dark-grayish-blue empty:hidden"}>{notification.message}</span>
-                            <span className={"text-dark-grayish-blue font-semibold empty:hidden hover:text-primary-blue"}>{notification.message_location}</span>
+                            <span className={"text-dark-grayish-blue font-semibold empty:hidden hover:text-primary-blue lg:font-bold"}>{notification.message_location}</span>
                         </div>
                         <span className={"text-grayish-blue"}>{notification.timestamp}</span>
                     </div>
@@ -26,12 +26,12 @@ const Card = ({notification, decreaseUnReadCount, increaseUnReadCount}) => {
             ):
                 (
                     <button className={"flex bg-unread-gray p-4 gap-x-[13px] rounded-xl w-full text-left"} onClick={toggleRead}>
-                        <img className={"w-[40px] h-[40px]"} src={notification.avatar} alt={""} />
-                        <div className={"text-[14px] text-dark-grayish-blue leading-[1.2rem]"}>
+                        <img className={"w-[40px] h-[40px] lg:w-[47px] lg:h-[47px]"} src={notification.avatar} alt={""} />
+                        <div className={"text-[14px] lg:text-[16px] text-dark-grayish-blue leading-[1.2rem] lg:leading-[1.5rem]"}>
                             <div className={"space-x-2 text-dark-grayish-blue"}>
                                 <span className={"font-bold text-black empty:hidden hover:text-primary-blue"}>{notification.name}</span>
                                 <span className={"text-dark-grayish-blue empty:hidden"}>{notification.message}</span>
-                                <span className={"text-dark-grayish-blue font-semibold empty:hidden hover:text-primary-blue"}>{notification.message_location}</span>
+                                <span className={"text-dark-grayish-blue font-semibold empty:hidden hover:text-primary-blue lg:font-bold"}>{notification.message_location}</span>
                                 <div className={"w-[8px] h-[8px] bg-primary-red rounded-full inline-flex align-middle mb-1"}></div>
                             </div>
                             <span className={"text-grayish-blue"}>{notification.timestamp}</span>
