@@ -35,7 +35,6 @@ function App() {
                     </button>
                 </div>
 
-
                 <CardLayout notifications={notifications} increaseUnReadCount={increaseUnReadCount} decreaseUnReadCount={decreaseUnReadCount} />
 
 
