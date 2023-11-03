@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.react-icons {
-    vertical-align: middle !important;
+img:not([src]) {
+    display: none;
 }
+

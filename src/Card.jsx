@@ -25,6 +25,7 @@ const Card = ({notification, decreaseUnReadCount, increaseUnReadCount}) => {
                             {notification.reply}
                         </div>
                     </div>
+                    <img className={"w-[45px] h-[47px] ml-auto"} src={notification.commented_picture} alt={""} />
                 </button>
             ):
                 (
@@ -39,6 +40,7 @@ const Card = ({notification, decreaseUnReadCount, increaseUnReadCount}) => {
                             </div>
                             <span className={"text-grayish-blue"}>{notification.timestamp}</span>
                         </div>
+                        <img className={"w-[45px] h-[47px] ml-auto"} src={notification.commented_picture} alt={""} />
                     </button>
             )}
         </>
