@@ -21,7 +21,7 @@ const Card = ({ notification, decreaseUnReadCount, increaseUnReadCount }) => {
               <span className={"text-dark-grayish-blue font-semibold empty:hidden hover:text-primary-blue lg:font-bold"}>{notification.message_location}</span>
             </div>
             <span className={"text-grayish-blue"}>{notification.timestamp}</span>
-            <div className={"empty:hidden border rounded-md px-5 py-3 mt-2 lg:py-[20px] leading-5 lg:text-[16.3px]"}>{notification.reply}</div>
+            <div className={"empty:hidden border rounded-md px-5 py-3 mt-2 lg:py-[20px] leading-5 lg:text-[16.3px] hover:bg-light-grayish-blue-1"}>{notification.reply}</div>
           </div>
           <img className={"w-[39px] h-[39px] lg:w-[45px] lg:h-[47px] ml-auto [&:not([src])]:hidden"} src={notification.commented_picture} alt={""} />
         </button>
